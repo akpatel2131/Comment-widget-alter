@@ -1,0 +1,60 @@
+/* src/components/CommentInput.css */
+.comment-input-container {
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  padding: 20px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  }
+
+  .comment-input-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .divider {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px solid black;
+  }
+  
+  .comment-input-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    align-self: flex-end;
+  }
+
+  .comment-text-decoration {
+    display: flex;
+    gap: 10px;
+  }
+
+  .comment-text-decoration button {
+    cursor: pointer;
+  }
+
+  .send-button {
+    background-color: #28a745;
+    cursor: pointer;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+
+  .cancel-button {
+    cursor: pointer;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    border: 1px solid black;
+    background-color: transparent;
+  }
+  
