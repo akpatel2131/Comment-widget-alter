@@ -11,13 +11,13 @@ import { useCallback } from "react";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyD9IwVXgisi5TD2fNwZiTyvmdkKVmmhZ1c",
-  authDomain: "comment-widget-25f1a.firebaseapp.com",
-  projectId: "comment-widget-25f1a",
-  storageBucket: "comment-widget-25f1a.appspot.com",
-  messagingSenderId: "35500114771",
-  appId: "1:35500114771:web:047beca4dfd98efe9f17a6",
-  measurementId: "G-BR8Y3FYG25"
+  apiKey: process.env.REACT_APP_API_KEY,
+  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
+  projectId: process.env.REACT_APP_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
+  appId: process.env.REACT_APP_APP_ID,
+  measurementId: process.env.REACT_APP_MEASUREMENT_ID
 };
 
 export default function useGoogleAuth() {
